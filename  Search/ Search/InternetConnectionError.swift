@@ -21,19 +21,19 @@ struct InternetConnectionError: View {
                     .padding()
                 
                 Text("Проблемы с интернет подключением")
-                    .font(.custom(FontsManager.Inter.regular, size: 16))
+                    //.font(.custom(FontsManager.Inter.regular, size: 16))
                     .foregroundColor(
-                        Color.init(toText: .gwork)
+                        Color.blue
                     )
               
                 Button {
                     tryConection()
                 } label: {
                     Text("Попробовать ещё раз")
-                        .font(.custom(FontsManager.Inter.regular, size: 16))
+                        //.font(.custom(FontsManager.Inter.regular, size: 16))
                         .frame(width: 225, height: 43)
                         .foregroundColor(
-                            Color.init(toText: .gmain)
+                            Color.red
                             
                         )
                         .cornerRadius(4)
@@ -44,10 +44,10 @@ struct InternetConnectionError: View {
                     tryConection()
                 } label: {
                     Text("Вернуться на главную")
-                        .font(.custom(FontsManager.Inter.regular, size: 16))
+                       // .font(.custom(FontsManager.Inter.regular, size: 16))
                         .frame(width: 225, height: 43)
                         .background(
-                            Color.init(toElement: .main)
+                            Color.red
                         )
                         .foregroundColor(.white)
                         .cornerRadius(4)
@@ -61,8 +61,6 @@ struct InternetConnectionError: View {
 
 struct InternetConnectionError_Previews: PreviewProvider {
     static var previews: some View {
-        self.devices {
             InternetConnectionError()
-        }
     }
 }

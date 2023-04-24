@@ -48,11 +48,11 @@ struct ButtonBuilder: View {
         } label: {
             Text(text)
                 .frame(width: CGFloat(buttonWidth.rawValue), height: 40)
-                .foregroundColor(withBackground ? isActiveButton ? .white : Color.init(toElement: .iconactive) : Color.init(toElement: .main))
+               // .foregroundColor(withBackground ? isActiveButton ? .white : Color.orange : Color.brown
                 .background(
-                    withBackground ? isActiveButton ? Color.init(toElement: .main) : Color.init(toElement: .currency) : .white
-                )
-                .cornerRadius(6)
+                    withBackground ? isActiveButton ? Color.blue : Color.black : .white
+                    )
+                //.cornerRadius
         }
         .disabled(!isActiveButton)
     }
