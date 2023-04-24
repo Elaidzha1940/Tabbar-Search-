@@ -13,6 +13,7 @@
 		E402881829F643A7002EDC06 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E402881729F643A7002EDC06 /* Preview Assets.xcassets */; };
 		E402881F29F645FD002EDC06 /* InternetConnectionError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E402881E29F645FD002EDC06 /* InternetConnectionError.swift */; };
 		E402882129F64961002EDC06 /* HelloVeiw.swift in Sources */ = {isa = PBXBuildFile; fileRef = E402882029F64961002EDC06 /* HelloVeiw.swift */; };
+		E402882329F649A8002EDC06 /* ButtonBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E402882229F649A8002EDC06 /* ButtonBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E402881729F643A7002EDC06 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E402881E29F645FD002EDC06 /* InternetConnectionError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetConnectionError.swift; sourceTree = "<group>"; };
 		E402882029F64961002EDC06 /* HelloVeiw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloVeiw.swift; sourceTree = "<group>"; };
+		E402882229F649A8002EDC06 /* ButtonBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				E402881629F643A7002EDC06 /* Preview Content */,
 				E402881E29F645FD002EDC06 /* InternetConnectionError.swift */,
 				E402882029F64961002EDC06 /* HelloVeiw.swift */,
+				E402882229F649A8002EDC06 /* ButtonBuilder.swift */,
 			);
 			path = " Search";
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			files = (
 				E402881229F643A7002EDC06 /* ContentView.swift in Sources */,
 				E402882129F64961002EDC06 /* HelloVeiw.swift in Sources */,
+				E402882329F649A8002EDC06 /* ButtonBuilder.swift in Sources */,
 				E402881029F643A7002EDC06 /* _SearchApp.swift in Sources */,
 				E402881F29F645FD002EDC06 /* InternetConnectionError.swift in Sources */,
 			);
