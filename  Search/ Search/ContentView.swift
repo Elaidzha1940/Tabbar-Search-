@@ -1,9 +1,11 @@
+//  /*
 //
-//  ContentView.swift
-//   Search
+//  Project: Search
+//  File: ContentView.swift
+//  Created by: Elaidzha Shchukin
+//  Date: 24.04.2023
 //
-//  Created by Elaidzha Shchukin on 24.04.2023.
-//
+//  */
 
 import SwiftUI
 
